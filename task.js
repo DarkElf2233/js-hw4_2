@@ -17,7 +17,8 @@ addButton.addEventListener('click', (el) => {
         </div>`
     );
     input.value = '';
-    
+
+    input.focus();
     el.preventDefault();
 });
 
